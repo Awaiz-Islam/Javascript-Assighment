@@ -1,39 +1,47 @@
 *{
-   margin: 15 px;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   list-style: none;
   }
-
-.awaiz {
-  text-align: right;
-  border-radius: 50%;
-  border: 0px solid black;
+main{
+  height: 100vh;
+  background: url('https://source.unsplash.com/1500x800?ocean');
+  display: grid;
+  align-items: center;
+  justify-content: center;
 }
-
-.js {
-  box-shadow: 0 0 90px #00000080;
+main h1{
+  color: #2C5364;
+  mix-blend-mode: difference;
+  font-size: 50px;
 }
-
-
-.buttonClass {
-  padding: 10px;
-  font-size:15px;
-  font-family:Arial;
-  width:149px;
-  height:52px;
-  border-width:2px;
-  color:#14396a;
-  border-color:#333333;
-  font-weight:bold;
-  border-top-left-radius:14px;
-  border-top-right-radius:14px;
-  border-bottom-left-radius:14px;
-  border-bottom-right-radius:14px;
-  box-shadow:inset 0px 1px 0px 0px #fff6af;
-  text-shadow:inset 0px 1px 0px #ffee66;
-  background:linear-gradient(#ffec64, #ffab23);
+.button{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 100vh;
+  background: #6190E8;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #A7BFE8, #6190E8);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #A7BFE8, #6190E8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
 }
-
-.buttonClass:hover {
-  background: linear-gradient(#ffab23, #ffec64);
+ul{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+ul li{
+  padding: 10px 18px;
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin-left: 10px;
+  border-radius: 10px;  
+}
+ul li a{
+  color: #fff;
 }
               
 
