@@ -1,0 +1,41 @@
+*{
+   margin: 15 px;
+  }
+
+.awaiz {
+  text-align: right;
+  border-radius: 50%;
+  border: 0px solid black;
+}
+
+.js {
+  box-shadow: 0 0 90px #00000080;
+}
+
+
+.buttonClass {
+  padding: 10px;
+  font-size:15px;
+  font-family:Arial;
+  width:149px;
+  height:52px;
+  border-width:2px;
+  color:#14396a;
+  border-color:#333333;
+  font-weight:bold;
+  border-top-left-radius:14px;
+  border-top-right-radius:14px;
+  border-bottom-left-radius:14px;
+  border-bottom-right-radius:14px;
+  box-shadow:inset 0px 1px 0px 0px #fff6af;
+  text-shadow:inset 0px 1px 0px #ffee66;
+  background:linear-gradient(#ffec64, #ffab23);
+}
+
+.buttonClass:hover {
+  background: linear-gradient(#ffab23, #ffec64);
+}
+              
+
+
+
