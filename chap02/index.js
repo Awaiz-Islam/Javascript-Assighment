@@ -5,9 +5,9 @@ alert(age);
 var development = "certified mobile application development";
 alert(development);
 
-alert("Pizza\nPizz\nPiz\nPi\nP");
+alert("Awaiz\nAwai\nAwa\nAw\nA");
 
-var email = "zaizahid42401@gmail.com";
+var email = "awaizmalik02@gmail.com";
 alert("My email address is: " + email);
 
 var book = "A smarter way to learn JavaScript";
